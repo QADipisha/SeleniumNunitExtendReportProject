@@ -47,7 +47,7 @@ namespace SeleniumNUnitExtentReport.TestCases
             demoPage.goToPage();
             demoPage.Executetest_Three();
             //Console.WriteLine("test status", GetStatusText());
-            demoPage.closeBrowser();
+            demoPage.closeBrowser();  
         }
 
         [Test, Order(4)]
